@@ -1,0 +1,83 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .28rem;
+    background-color: #fa3432;
+    height: .92rem;
+    padding-left: .31rem;
+    padding-right: .31rem;
+    color: #fff;
+}
+header a{color: #fff;}
+header .iconfont{
+    font-size: .3rem;
+}
+.helplist{
+    background-color: #f9f9f9;
+    height: .85rem;
+    font-size: .25rem;
+    color: #4c4b4b;
+    display: flex;
+    align-items: center;
+    padding-left: .3rem;
+    position: relative;
+
+}
+.helplist img{height: .58rem;
+    margin-right: .21rem;
+    width: .58rem;
+}
+.helplist em{
+    font-size: .3rem;
+    color: #fa9930;
+    position: absolute;
+    left: 7rem;
+}
+.helplist1{
+    background-color: #fff;
+    height: 1.28rem;
+    color: #4c4b4b;
+    display: flex;
+    align-items: center;
+    padding-left: .3rem;
+
+}
+.helplist1 img{height: .78rem;
+    margin-right: .28rem;
+    width: .80rem;
+}
+.helplist1 .font1 .p1{
+    font-size: .25rem;
+}
+.helplist1 .font1 .p1 em{
+    font-size: .25rem;
+    color: #06a2ce;
+}
+.helplist1 .font1 .font2{
+    font-size: .18rem ;
+    color: #adadad;
+}
+
+/* -------- foot start -------- */
+.footer {
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    /* margin: 0.65rem 0rem 0rem 0rem; */
+    height: 2.2rem;
+    padding: 0.6rem 0rem 0rem 0rem;
+    text-align: center;
+  }
+  .footer .links {
+    margin: 0rem 0rem 0.26666667rem 0rem;
+  }
+  .footer .links a {
+    margin: 0rem 0.06666667rem 0rem 0.06666667rem;
+    color: #494848;
+    font-size: 0.37333333rem;
+  }
+  .footer .copyright {
+    color: #9a9b9c;
+    font-size: 0.34666667rem;
+  }
+/* -------- foot end -------- */

@@ -1,0 +1,153 @@
+body{
+    font-size: .22rem;
+    background-color: #f9f9f9;
+    /* height: 1500px; */
+}
+header{
+    background-color: #fa3432;
+    height: .92rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .28rem;
+    color: #fff;
+    padding-left: .31rem;
+    padding-right: .31rem;
+}
+header a{
+    color: #fff;
+}
+header .iconfont{
+    font-size: .3rem;
+}
+ol{background-color: #f0f0f0;}
+
+.topx{height: 1.3rem;
+  position: relative;
+
+}
+.topx .top{height: 1rem;
+  width: 2.4rem;
+  border-bottom: .05rem solid #fbb870;
+  font-size: 28px;
+  color: #525151;
+  text-align: center;
+  line-height: 1rem;
+  position: absolute;
+  left: 3.8rem;
+  /* margin-bottom: .47rem; */
+}
+.fontx{
+  height: 2rem;
+  font-size: .28rem;
+  color: #868484;
+  margin-left: .85rem;
+  margin-right: 1.05rem;
+  /* margin-bottom: .55rem;  */
+}
+/* 文字结束 */
+
+
+/* 发展开始 */
+.boxx{
+  height: 1.3rem;
+  position: relative;
+
+}
+    .boxx .boxxx{height: 1rem;
+      width: 2.4rem;
+      border-bottom: .05rem solid #fbb870;
+      font-size: 28px;
+      color: #525151;
+      text-align: center;
+      line-height: 1rem;
+      position: absolute;
+      left: 3.8rem;
+      /* margin-bottom: .47rem; */
+    }
+.Development{
+  height: 1rem;
+  position: relative;
+}
+.Development .year{
+  color: #868484;
+  font-size: 21px;
+  margin-left: .85rem;
+  margin-right: 1.05rem;
+}
+/* 通过伪元素创建一个三角 */
+.Development .year:after{
+  background-color: #ff982b;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: .10rem;
+  border: .1rem solid #ff982b;
+  border-top: .1rem solid #ff982b;
+  position: absolute;
+  left: 2.04rem;
+  top: .08rem;
+}
+.Development:after{
+  background-color: #ff982b;
+  content: "";
+  display: block;
+  width: .03rem;
+  height: 1rem;
+  position: absolute;
+  left: 2.12rem;
+  top: 0.1rem;
+
+}
+
+.Development1{
+  height: 1rem;
+  position: relative;
+}
+.Development1 .year1{
+  color: #868484;
+  font-size: 21px;
+  margin-left: .85rem;
+  margin-right: 1.05rem;
+}
+/* 通过伪元素创建一个三角 */
+.Development1 .year1:after{
+  background-color: #ff982b;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: .10rem;
+  border: .1rem solid #ff982b;
+  border-top: .1rem solid #ff982b;
+  position: absolute;
+  left: 2.04rem;
+  top: .08rem;
+}
+/* 发展结束 */
+.imgs{text-align: center;
+margin-left: .4rem;
+}
+
+
+.footer {
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    /* margin: 0.30666667rem 0rem 0rem 0rem; */
+    height: 2.2rem;
+    /* padding: 0.6rem 0rem 0rem 0rem; */
+    text-align: center;
+  }
+  .footer .links {
+    margin: 0rem 0rem 0.26666667rem 0rem;
+  }
+  .footer .links a {
+    margin: 0rem 0.06666667rem 0rem 0.06666667rem;
+    color: #494848;
+    font-size: 0.37333333rem;
+  }
+  .footer .copyright {
+    color: #9a9b9c;
+    font-size: 0.34666667rem;
+  }

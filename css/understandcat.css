@@ -1,0 +1,125 @@
+body{
+    font-size: .22rem;
+    
+    /* height: 1500px; */
+}
+header{
+    background-color: #fa3432;
+    height: .92rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .28rem;
+    color: #fff;
+    padding-left: .31rem;
+    padding-right: .31rem;
+}
+header a{
+    color: #fff;
+}
+
+header .iconfont{
+    font-size: .3rem;
+}
+ol{background-color: #f0f0f0;}
+
+/* 第一个 */
+.aboutusx{
+  height: 3.2rem;
+  margin-top: .5rem;
+  font-size: .28rem;
+  /* margin-bottom: 1rem; */
+}
+.aboutusx .div1x{
+  font-size: .28rem;
+  color: #fa3c3a;
+  margin: .5rem 0rem .47rem .75rem;
+  position: relative;
+
+}
+/* 通过伪元素创建一个三角 */
+.aboutusx .div1x:after{
+  background-color: #fb05;
+  content: "";
+  display: block;
+  width: .2rem;
+  height: .2rem;
+  border-radius: 100%;
+  /* border: .12rem solid transparent; */
+  border:.05rem solid #fb05; 
+  border-bottom: .05rem solid #fb05; 
+  position: absolute;
+  top: 0.01rem;
+  left: -0.07rem;
+  
+}
+.aboutusx .div2x{
+  height: 291px;
+  font-size: .33rem;
+  color: #868486;
+  margin: 0rem .8rem 0rem .75rem; 
+
+}
+
+
+/* 第一个 */
+
+
+.aboutus{
+  height: 3.2rem;
+  margin-top: .5rem;
+  font-size: .28rem;
+  margin-bottom: 1rem;
+}
+.aboutus .div1{
+  font-size: .28rem;
+  color: #fa3c3a;
+  margin: .5rem 0rem .47rem .75rem;
+  position: relative;
+
+}
+/* 通过伪元素创建一个三角 */
+.aboutus .div1:after{
+  background-color: #fb05;
+  content: "";
+  display: block;
+  width: .2rem;
+  height: .2rem;
+  border-radius: 100%;
+  /* border: .12rem solid transparent; */
+  border:.05rem solid #fb05; 
+  border-bottom: .05rem solid #fb05; 
+  position: absolute;
+  top: 0.01rem;
+  left: -0.07rem;
+  
+}
+.aboutus .div2{
+  height: 291px;
+  font-size: .33rem;
+  color: #868486;
+  margin: 0rem .8rem 0rem .75rem;
+
+}
+
+
+.footer {
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    /* margin: 0.30666667rem 0rem 0rem 0rem; */
+    height: 2.2rem;
+    /* padding: 0.6rem 0rem 0rem 0rem; */
+    text-align: center;
+  }
+  .footer .links {
+    margin: 0rem 0rem 0.26666667rem 0rem;
+  }
+  .footer .links a {
+    margin: 0rem 0.06666667rem 0rem 0.06666667rem;
+    color: #494848;
+    font-size: 0.37333333rem;
+  }
+  .footer .copyright {
+    color: #9a9b9c;
+    font-size: 0.34666667rem;
+  }

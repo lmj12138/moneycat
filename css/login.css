@@ -1,0 +1,101 @@
+body{
+    /* height: 1500px; */
+}
+header{
+    background-color: #fa3432;
+    height: .92rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .28rem;
+    color: #fff;
+    padding-left: .31rem;
+    padding-right: .31rem;
+}
+header a{
+    color: #fff;
+}
+
+header .iconfont{
+    font-size: .3rem;
+}
+.loginimg{
+    text-align: center;
+    height: 3.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+.p1{font-size: .26rem;
+    color: #0e0e0e;
+    margin-left: .38rem;
+    padding-bottom: .22rem;
+    background-color: #f9f9f9;
+}
+.loginlist{
+    width: 7rem;
+    height: .77rem;
+    display: flex;
+    align-items: center;
+    margin-left: .22rem;
+    margin-right: .26rem;
+    padding-left: .12rem;
+    border: .02rem solid #eee;
+}
+.loginlist img{
+    width: .35rem;
+    height: .65rem;
+    margin-right: .25rem;
+}
+.loginlist p{
+    font-size: .3rem;
+    color: #a2a2a2;
+}
+.logindiv{
+    font-size: .3rem;
+    color: #fff;
+    text-align: center;
+    line-height: .81rem;
+    width: 6.92rem;
+    height: .81rem;
+    background-color: #fa3432;
+    border: 2px solid #fa3432;
+    border-radius: .02rem;
+    margin-left: 28px;
+    margin-top: .23rem;
+    margin-bottom: .2rem;
+}
+.logindiv a{color: #fff;}
+.bottom1{
+    height: 2.04rem;
+    font-size: .28rem;
+    color: #9a9b9c;
+    text-align: center;
+    border-bottom: 2px solid #f9f9f9;
+}
+
+
+
+/* -------- foot start -------- */
+.footer {
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    margin: 0.46rem 0rem 0rem 0rem;
+    height: 2.2rem;
+    /* padding: 0.6rem 0rem 0rem 0rem; */
+    text-align: center;
+  }
+  .footer .links {
+    margin: 0rem 0rem 0.26666667rem 0rem;
+  }
+  .footer .links a {
+    margin: 0rem 0.06666667rem 0rem 0.06666667rem;
+    color: #494848;
+    font-size: 0.37333333rem;
+  }
+  .footer .copyright {
+    color: #9a9b9c;
+    font-size: 0.34666667rem;
+  }
+/* -------- foot end -------- */
